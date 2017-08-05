@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity$SectionFragment" >
+
+    <Button
+        android:id="@+id/xbmc_button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/xbmc_button_up"
+        android:onClick="onXbmcLeft_Click"
+        android:text="@string/xbmc_button_left"
+        android:height="@dimen/xbmc_button_nav"
+        android:width="@dimen/xbmc_button_nav"  />
+
+    <Button
+        android:id="@+id/xbmc_button_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xbmc_button_left"
+        android:layout_toRightOf="@+id/xbmc_button_left"
+        android:onClick="onXbmcDown_Click"
+        android:text="@string/xbmc_button_down"
+        android:height="@dimen/xbmc_button_nav"
+        android:width="@dimen/xbmc_button_nav"  />
+
+    <Button
+        android:id="@+id/xbmc_button_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/xbmc_button_right"
+        android:layout_toRightOf="@+id/xbmc_button_left"
+        android:onClick="onXbmcUp_Click"
+        android:text="@string/xbmc_button_up"
+        android:height="@dimen/xbmc_button_nav"
+        android:width="@dimen/xbmc_button_nav"  />
+
+    <Button
+        android:id="@+id/xbmc_button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/xbmc_button_up"
+        android:onClick="onXbmcRight_Click"
+        android:text="@string/xbmc_button_right"
+        android:height="@dimen/xbmc_button_nav"
+        android:width="@dimen/xbmc_button_nav"  />
+
+    <Button
+        android:id="@+id/xbmc_button_volDn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/xbmc_button_volUp"
+        android:layout_alignBottom="@+id/xbmc_button_volUp"
+        android:layout_toLeftOf="@+id/xbmc_button_volUp"
+        android:onClick="onXbmcVolDn_Click"
+        android:text="@string/button_volDn_text" />
+
+    <Button
+        android:id="@+id/xbmc_button_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/xbmc_button_volDn"
+        android:layout_alignBottom="@+id/xbmc_button_volDn"
+        android:layout_toLeftOf="@+id/xbmc_button_volDn"
+        android:onClick="onXbmcMute_Click"
+        android:text="@string/button_mute" />
+
+    <Button
+        android:id="@+id/xbmc_button_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/xbmc_button_volDn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/xbmc_button_volUp"
+        android:height="@dimen/xbmc_button_nav"
+        android:maxWidth="@dimen/xbmc_button_nav"
+        android:onClick="onXbmcEnter_Click"
+        android:text="@string/xbmc_button_enter" />
+
+    <Button
+        android:id="@+id/xbmc_button_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/xbmc_button_mute"
+        android:layout_toRightOf="@+id/xbmc_button_right"
+        android:onClick="onXbmcSpace_Click"
+        android:text="@string/xbmc_button_space" />
+
+    <Button
+        android:id="@+id/xbmc_button_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/xbmc_button_right"
+        android:layout_alignLeft="@+id/xbmc_button_space"
+        android:layout_marginLeft="50dp"
+        android:onClick="onXbmcTab_Click"
+        android:text="@string/xbms_button_tab" />
+
+    <Button
+        android:id="@+id/xbmc_button_volUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onXbmcVolUp_Click"
+        android:text="@string/button_volUp_text" />
+
+    <Button
+        android:id="@+id/xbmc_button_escape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onXbmcEscape_Click"
+        android:text="@string/xbmc_button_escape" />
+
+</RelativeLayout>

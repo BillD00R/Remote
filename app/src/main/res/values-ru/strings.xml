@@ -1,0 +1,32 @@
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="title_play">Медиа</string>
+    <string name="button_play_text">Play/Pause</string>
+    <string name="button_stop_text">Stop</string>
+    <string name="button_next_text">&gt;&gt;|</string>
+    <string name="button_prev_text">|&lt;&lt;</string>
+    <string name="button_volUp_text">Vol +</string>
+    <string name="button_volDn_text">Vol -</string>
+    <string name="textView_status_connected_text">Подключено</string>
+    <string name="textView_play_warning">Соединение не установлено.</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="hello_world">Привет, Мир!</string>
+    <string name="text_address_text">Адрес:</string>
+    <string name="text_port_text">Порт:</string>
+    <string name="title_xbmc">xbmc</string>
+    <string name="xbmc_button_up">Вверх</string>
+    <string name="xbmc_button_down">Вниз</string>
+    <string name="xbmc_button_left">Влево</string>
+    <string name="xbmc_button_right">Вправо</string>
+    <string name="xbmc_button_escape">Назад</string>
+    <string name="xbmc_button_enter">Выбор</string>
+    <string name="xbmc_button_space">Воспроизведение/пауза</string>
+    <string name="xbms_button_tab">На весь экран</string>
+    <string name="button_mute">mute</string>
+    <string name="action_connection_text">Подключение</string>
+    <string name="action_run_xbmc_text">Запустить XBMC</string>
+    <string name="toast_connected">Подключено.</string>
+    <string name="toast_disconnected">Отключено.</string>
+    <string name="title_keys">Клавиши</string>
+
+</resources>
